@@ -8,5 +8,5 @@ function solution(s) {
         else stack.pop();
     }
 
-    return !stack.length;
+    return !stack.length; // !0 => true
 }
